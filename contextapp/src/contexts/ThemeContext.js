@@ -3,9 +3,6 @@ import React , {createContext , Component } from 'react';
 export const ThemeContext = createContext();
 
 class ThemeContextProvider extends Component {
-    constructor(props) {
-        super(props);
-    }
     state = { 
         isLightTheme: true,
         light :{
