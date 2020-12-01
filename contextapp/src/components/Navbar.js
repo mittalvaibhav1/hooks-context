@@ -7,7 +7,7 @@ class Navbar extends Component {
             <ThemeContext.Consumer>{(context) => {
                 const {isLightTheme , light , dark} = context;
                 const theme = isLightTheme ? light : dark;
-                return(
+                return (
                     <nav style = {{background : theme.ui , color : theme.syntax}}>
                         <h1>Context App</h1>
                         <ul>
@@ -17,7 +17,9 @@ class Navbar extends Component {
                         </ul>
                     </nav>
                 )
-            }}</ThemeContext.Consumer>
+            }}
+            </ThemeContext.Consumer>
+            
          );
     }
 }
