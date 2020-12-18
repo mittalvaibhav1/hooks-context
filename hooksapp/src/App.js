@@ -1,4 +1,3 @@
-
 import SongList from './components/SongList';
 
 function App() {
